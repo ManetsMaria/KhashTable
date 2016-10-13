@@ -277,7 +277,4 @@ public:
 		for (auto i = initL.begin(); i != initL.end(); i++)
 			this->add(*i);
 	}
-	void Accept(Visitor<Type>& vis) {
-		vis.visit(*this);
-	}
 };
